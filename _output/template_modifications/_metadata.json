@@ -1,0 +1,20 @@
+{
+    "public/hideResourceRatingsFeaturedResources.json": {
+        "hash": "9f60d3ffa1212284983d3b2c26856c58"
+    },
+    "public/hideResourceRatingsFilters.json": {
+        "hash": "bb5c429a6f202338a58fa04b91abdcdb"
+    },
+    "public/hideResourceRatingsResourceHistory.json": {
+        "hash": "5a59c427426a1385aef46bbfbe701118"
+    },
+    "public/hideResourceRatingsResourceHistoryBody.json": {
+        "hash": "8e06c4c29248e6006f30cd20d6c9e11e"
+    },
+    "public/hideResourceRatingsResourceListMacros.json": {
+        "hash": "50c23fd7b5dc937124e196ac3240602b"
+    },
+    "public/hideResourceRatingsResourceView.json": {
+        "hash": "ef55eb6955cdeba3d8ddd36fbf24cd63"
+    }
+}

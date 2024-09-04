@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_history",
+    "description": "Hide resource ratings from history table (heading)",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:cell>{{ phrase('rating') }}</xf:cell>",
+    "replace": "<xf:comment>$0</xf:comment>"
+}

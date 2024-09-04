@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_history",
+    "description": "Hide resource ratings from history table (body)",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t\t\t\t\t\t<xf:cell>\n\t\t\t\t\t\t\t<xf:macro template=\"rating_macros\" name=\"stars_text\"\n\t\t\t\t\t\t\t\targ-rating=\"{$version.rating_avg}\"\n\t\t\t\t\t\t\t\targ-count=\"{$version.rating_count}\" />\n\t\t\t\t\t\t</xf:cell>",
+    "replace": "\t\t\t\t\t\t<xf:comment>\n$0\n\t\t\t\t\t\t</xf:comment>\t"
+}

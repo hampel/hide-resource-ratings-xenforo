@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_filters",
+    "description": "Remove sort by rating option from resource filters",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:option value=\"rating_weighted\">{{ phrase('rating') }}</xf:option>",
+    "replace": "<xf:comment>$0</xf:comment>"
+}

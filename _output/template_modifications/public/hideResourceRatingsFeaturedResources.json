@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_widget_featured_resources",
+    "description": "Hide resource ratings from featured resources",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t<xf:macro template=\"rating_macros\" name=\"stars\"\n\t\t\t\t\t\t\t\t\t\t\t\t\targ-rating=\"{$resource.rating_avg}\" />\n\t\t\t\t\t\t\t\t\t\t\t</li>",
+    "replace": "<xf:comment>\n$0\n</xf:comment>\n"
+}

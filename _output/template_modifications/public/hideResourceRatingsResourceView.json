@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_view",
+    "description": "Hide resource rating from resource view",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t\t\t\t\t\t<dl class=\"pairs pairs--justified\">\n\t\t\t\t\t\t\t<dt>{{ phrase('rating') }}</dt>\n\t\t\t\t\t\t\t<dd>\n\t\t\t\t\t\t\t\t<xf:macro template=\"rating_macros\" name=\"stars_text\"\n\t\t\t\t\t\t\t\t\targ-rating=\"{$resource.rating_avg}\"\n\t\t\t\t\t\t\t\t\targ-count=\"{$resource.rating_count}\"\n\t\t\t\t\t\t\t\t\targ-rowClass=\"ratingStarsRow--textBlock\" />\n\t\t\t\t\t\t\t</dd>\n\t\t\t\t\t\t</dl>",
+    "replace": "<xf:comment>\n$0\n</xf:comment>\n"
+}

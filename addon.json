@@ -1,0 +1,21 @@
+{
+    "legacy_addon_id": "",
+    "title": "Hide Resource Ratings",
+    "description": "Hide ratings starts in XenForo Resource Manager",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "Simon Hampel",
+    "dev_url": "https://xenforo.com/community/members/sim.4264/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "Git Repository": ""
+    },
+    "require": {
+        "XF": [
+            "2020070",
+            "XenForo 2.2.0+"
+        ]
+    },
+    "icon": "fa-star"
+}
