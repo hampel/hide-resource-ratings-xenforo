@@ -1,0 +1,9 @@
+{
+    "template": "pre_reg_action_approval_queue_resource_rate",
+    "description": "Hide resource ratings from pre-reg approval queue",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t<xf:macro template=\"rating_macros\" name=\"stars\"\n\t\targ-rating=\"{$details.rating}\"\n\t\targ-class=\"ratingStars--smaller\" />",
+    "replace": "<xf:comment>\n$0\n</xf:comment>\n"
+}

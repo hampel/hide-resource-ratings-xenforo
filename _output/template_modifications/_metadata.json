@@ -5,6 +5,12 @@
     "public/hideResourceRatingsFilters.json": {
         "hash": "bb5c429a6f202338a58fa04b91abdcdb"
     },
+    "public/hideResourceRatingsNewsFeedItem.json": {
+        "hash": "b3e736227488bc483e0c8ed978121bb4"
+    },
+    "public/hideResourceRatingsPreRegActionApprovalQueue.json": {
+        "hash": "c908ccd238535c7fa085abf4a463250d"
+    },
     "public/hideResourceRatingsResourceHistory.json": {
         "hash": "5a59c427426a1385aef46bbfbe701118"
     },
@@ -16,5 +22,11 @@
     },
     "public/hideResourceRatingsResourceView.json": {
         "hash": "ef55eb6955cdeba3d8ddd36fbf24cd63"
+    },
+    "public/hideResourceRatingsReviewMacrosReview.json": {
+        "hash": "6821e35a9644979fdc61ff6da93f3224"
+    },
+    "public/hideResourceRatingsReviewMacrosReviewSimple.json": {
+        "hash": "7fbd89f86f0020c1e1988ad84acd8bd7"
     }
 }
