@@ -7,14 +7,15 @@
     "dev": "Simon Hampel",
     "dev_url": "https://xenforo.com/community/members/sim.4264/",
     "faq_url": "",
-    "support_url": "",
+    "support_url": "https://xenforo.com/community/threads/hide-resource-ratings.225038/",
     "extra_urls": {
+        "Addon": "https://xenforo.com/community/resources/hide-resource-ratings.9554/",
         "Git Repository": "https://github.com/hampel/hide-resource-ratings-xenforo"
     },
     "require": {
         "XF": [
             "2020070",
-            "XenForo 2.2.0+"
+            "XenForo 2.2.0"
         ]
     },
     "icon": "fa-star"
