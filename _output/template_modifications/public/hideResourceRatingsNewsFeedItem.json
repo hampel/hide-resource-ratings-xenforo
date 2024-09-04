@@ -4,6 +4,6 @@
     "execution_order": 10,
     "enabled": true,
     "action": "str_replace",
-    "find": "\t<xf:macro template=\"rating_macros\" name=\"stars\"\n\t\targ-rating=\"{$content.rating}\"\n\t\targ-class=\"ratingStars--smaller\" />",
+    "find": "\t<xf:macro id=\"rating_macros::stars\"\n\t\targ-rating=\"{$content.rating}\"\n\t\targ-class=\"ratingStars--smaller\" />",
     "replace": "<xf:comment>\n$0\n</xf:comment>\n"
 }

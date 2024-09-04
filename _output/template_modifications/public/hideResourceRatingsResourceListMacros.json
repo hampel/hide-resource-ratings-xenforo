@@ -4,6 +4,6 @@
     "execution_order": 10,
     "enabled": true,
     "action": "str_replace",
-    "find": "\t\t\t\t<xf:macro template=\"rating_macros\" name=\"stars_text\"\n\t\t\t\t\targ-rating=\"{$resource.rating_avg}\"\n\t\t\t\t\targ-count=\"{$resource.rating_count}\"\n\t\t\t\t\targ-rowClass=\"ratingStarsRow--justified\"\n\t\t\t\t\targ-starsClass=\"ratingStars--larger\" />\n",
-    "replace": "\t\t\t&nbsp;\n\t\t\t<xf:comment>\n$0\n\t\t\t</xf:comment>\n"
+    "find": "\t\t\t\t\t<xf:macro id=\"rating_macros::stars_text\"\n\t\t\t\t\t\targ-rating=\"{$resource.rating_avg}\"\n\t\t\t\t\t\targ-count=\"{$resource.rating_count}\"\n\t\t\t\t\t\targ-rowClass=\"ratingStarsRow--justified\"\n\t\t\t\t\t\targ-starsClass=\"ratingStars--larger\" />",
+    "replace": "\t\t\t\t\t&nbsp;\n<xf:comment>\n$0\n</xf:comment>\n"
 }

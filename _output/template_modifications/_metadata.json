@@ -1,32 +1,35 @@
 {
-    "public/hideResourceRatingsFeaturedResources.json": {
-        "hash": "9f60d3ffa1212284983d3b2c26856c58"
-    },
     "public/hideResourceRatingsFilters.json": {
         "hash": "bb5c429a6f202338a58fa04b91abdcdb"
     },
     "public/hideResourceRatingsNewsFeedItem.json": {
-        "hash": "b3e736227488bc483e0c8ed978121bb4"
+        "hash": "1d74c944700074c8821b21d7ab9fc619"
     },
     "public/hideResourceRatingsPreRegActionApprovalQueue.json": {
-        "hash": "c908ccd238535c7fa085abf4a463250d"
+        "hash": "9464b64878c54b14fb4bf11c2662afef"
     },
     "public/hideResourceRatingsResourceHistory.json": {
         "hash": "5a59c427426a1385aef46bbfbe701118"
     },
     "public/hideResourceRatingsResourceHistoryBody.json": {
-        "hash": "8e06c4c29248e6006f30cd20d6c9e11e"
+        "hash": "1838d75624ed13b010284b40df0453a5"
     },
     "public/hideResourceRatingsResourceListMacros.json": {
-        "hash": "50c23fd7b5dc937124e196ac3240602b"
+        "hash": "dc336e20392cb9c8a1280107f8d2cf56"
     },
     "public/hideResourceRatingsResourceView.json": {
-        "hash": "ef55eb6955cdeba3d8ddd36fbf24cd63"
+        "hash": "d4727559d4ae4607f251dc48f122137d"
     },
     "public/hideResourceRatingsReviewMacrosReview.json": {
-        "hash": "6821e35a9644979fdc61ff6da93f3224"
+        "hash": "3d4875c8624359af3b6095dd11ff3155"
     },
     "public/hideResourceRatingsReviewMacrosReviewSimple.json": {
-        "hash": "7fbd89f86f0020c1e1988ad84acd8bd7"
+        "hash": "111b6e4dc59f4da3c897c01e454acdbf"
+    },
+    "public/hideResourceRatingsTrendingContent.json": {
+        "hash": "d6f9954a797610327511c564b83b498e"
+    },
+    "public/hideResourceRatingsTrendingContentCarousel.json": {
+        "hash": "0eefba37428dd00c5cc502ecdef9bdd3"
     }
 }
