@@ -9,7 +9,7 @@
     "faq_url": "",
     "support_url": "",
     "extra_urls": {
-        "Git Repository": ""
+        "Git Repository": "https://github.com/hampel/hide-resource-ratings-xenforo"
     },
     "require": {
         "XF": [
